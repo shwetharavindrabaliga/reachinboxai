@@ -17,23 +17,26 @@ https://www.loom.com/share/b12a1f9ab67e48ae8e90efff18bccc9b?sid=6a306c49-9d1a-4b
 
 ## Login Page
 
-![Screenshot (344)](https://github.com/JahirPendhari09/ReachInBox-Frontend/assets/128920395/fb0298f0-1fd2-4464-b5e2-8bde53838a7b)
+![image](https://github.com/user-attachments/assets/405ccbdf-b80a-4dde-bd67-4ea8434e981b)
+
 
 ## Landing Page
 
-![Screenshot (346)](https://github.com/JahirPendhari09/ReachInBox-Frontend/assets/128920395/09ff52fd-5880-454f-ae7d-7520b31a6ef7)
+![image](https://github.com/user-attachments/assets/9f0dff6c-d6d0-4d29-b405-e55c90be1c86)
+
 
 ## Deshboard with Dark Mode
  
-![Screenshot 2024-04-02 213745](https://github.com/JahirPendhari09/ReachInBox-Frontend/assets/128920395/b507dfc6-bbd4-45ff-b115-296f5e7099d9)
+![image](https://github.com/user-attachments/assets/0b5f29d8-98db-4743-8394-aeb7fb8d2104)
+
 
 ## Dashboard with Light Mode
 
-![Screenshot (355)](https://github.com/JahirPendhari09/ReachInBox-Frontend/assets/128920395/8c2f6406-f4a1-408b-a556-255f80a18993)
+![image](https://github.com/user-attachments/assets/f9c5b21f-b2da-41c1-a0f8-0ad0a5839f38)
 
 ## Delete Email 
 
-![Screenshot (356)](https://github.com/JahirPendhari09/ReachInBox-Frontend/assets/128920395/82fb7ea2-2a85-4365-a796-d0d8f89b9e20)
+![image](https://github.com/user-attachments/assets/2841b7e0-df70-4c53-bf51-022ed7c29943)
 
 
 
@@ -41,8 +44,7 @@ https://www.loom.com/share/b12a1f9ab67e48ae8e90efff18bccc9b?sid=6a306c49-9d1a-4b
  
    <h2>Installation</h2>
    
-   Clone the repository:   ``` git clone https://github.com/JahirPendhari09/ReachInBox-Frontend.git  ``` <br/>
-   Navigate to the project directory:   ``` cd reachinbox ``` <br/>
+   Clone the repository:   ``` git clone https://github.com/shwetharavindrabaliga/reachinboxai.git  ``` <br/>
    Install the dependencies:   ``` npm install ``` <br/>
    Start the development server:   ``` npm run start ``` <br/>
    Open your browser and visit:   ``` http://localhost:3000 ``` <br/>
@@ -68,10 +70,6 @@ https://www.loom.com/share/b12a1f9ab67e48ae8e90efff18bccc9b?sid=6a306c49-9d1a-4b
 
    <h3>Delete Email</h3>
    <pre><code>DELETE {{baseurl}}/onebox/messages/:thread_id </code></pre>
-
- 
-   # Credits <br/>
-   This project was developed by ```Jahir Pendhari``` as a part of ```Masai School``` training program.
 
    <p>Feel free to explore and integrate these endpoints into your application.</p>
   
