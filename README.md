@@ -1,46 +1,77 @@
-# Getting Started with Create React App
+# ReachInBox-Frontend
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Overview
+This repository contains the code for Reachinbox frontend  App using React with Typescript for an assignment given by Reachinbox.
 
-## Available Scripts
+## Technologies Used ( Frontend )
+  - Typescript
+  - React
+  - Tailwind css
 
-In the project directory, you can run:
+## Deployment
 
-### `npm start`
+The application is deployed on netlify and can be accessed [here](https://reachinbox-frontend.netlify.app/).
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Demo Video :- 
+https://www.loom.com/share/b12a1f9ab67e48ae8e90efff18bccc9b?sid=6a306c49-9d1a-4b37-9dfa-21b4538e3831
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Login Page
 
-### `npm test`
+![Screenshot (344)](https://github.com/JahirPendhari09/ReachInBox-Frontend/assets/128920395/fb0298f0-1fd2-4464-b5e2-8bde53838a7b)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Landing Page
 
-### `npm run build`
+![Screenshot (346)](https://github.com/JahirPendhari09/ReachInBox-Frontend/assets/128920395/09ff52fd-5880-454f-ae7d-7520b31a6ef7)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Deshboard with Dark Mode
+ 
+![Screenshot 2024-04-02 213745](https://github.com/JahirPendhari09/ReachInBox-Frontend/assets/128920395/b507dfc6-bbd4-45ff-b115-296f5e7099d9)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Dashboard with Light Mode
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+![Screenshot (355)](https://github.com/JahirPendhari09/ReachInBox-Frontend/assets/128920395/8c2f6406-f4a1-408b-a556-255f80a18993)
 
-### `npm run eject`
+## Delete Email 
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+![Screenshot (356)](https://github.com/JahirPendhari09/ReachInBox-Frontend/assets/128920395/82fb7ea2-2a85-4365-a796-d0d8f89b9e20)
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+ # How to Run <br/>
+ 
+   <h2>Installation</h2>
+   
+   Clone the repository:   ``` git clone https://github.com/JahirPendhari09/ReachInBox-Frontend.git  ``` <br/>
+   Navigate to the project directory:   ``` cd reachinbox ``` <br/>
+   Install the dependencies:   ``` npm install ``` <br/>
+   Start the development server:   ``` npm run start ``` <br/>
+   Open your browser and visit:   ``` http://localhost:3000 ``` <br/>
+   
 
-## Learn More
+   ## Features 
+   
+  - Authentication
+  - Get Emails
+  - Post (send) Email
+  - Delete Email
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+   <h2>Endpoints</h2>
+   <h3>All Emails</h3>
+   <pre><code>GET {{baseurl}}/onebox/list </code></pre>
+
+   <h3>All Emails from Onebox</h3>
+   <pre><code>GET {{baseurl}}/onebox/messages/:thread_id </code></pre>
+
+   <h3>Add Onebox Mail</h3>
+   <pre><code>POST {{baseurl}}/onebox/reply/:thread_id </code></pre>
+
+   <h3>Delete Email</h3>
+   <pre><code>DELETE {{baseurl}}/onebox/messages/:thread_id </code></pre>
+
+ 
+   # Credits <br/>
+   This project was developed by ```Jahir Pendhari``` as a part of ```Masai School``` training program.
+
+   <p>Feel free to explore and integrate these endpoints into your application.</p>
+  
